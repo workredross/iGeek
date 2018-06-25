@@ -20,6 +20,14 @@ class App extends Component {
               <i className="material-icons">menu</i>
             </a>
             <ul className="right hide-on-med-and-down">
+              <li>
+                <a
+                  href="https://github.com/workredross/iGeek.git"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </li>
               <li className="active">
                 <a href="/">Home</a>
               </li>
