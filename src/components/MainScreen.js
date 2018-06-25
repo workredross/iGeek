@@ -55,7 +55,7 @@ class MainScreen extends Component {
   render() {
     return (
       <div className="row">
-        <div className="col m3 s12">
+        <div className="col m3 s12 show-on-medium-and-up">
           <SideBar handleSibeBarCardClick={this.handleSibeBarCardClick} />
         </div>
         <div className="col m8 s12">

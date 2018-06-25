@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SideBarCard from "./SideBarCard";
+
 class SideBar extends Component {
   constructor(props) {
     super(props);
@@ -11,7 +12,7 @@ class SideBar extends Component {
 
   render() {
     return (
-      <div style={{ overflowY: "scroll", height: "90vh" }}>
+      <div className="show-on-medium-and-up sideBar">
         <SideBarCard
           handleSibeBarCardClick={this.handleSibeBarCardClick}
           question="Palindrome"

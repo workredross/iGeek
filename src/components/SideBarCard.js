@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class SideBarCard extends Component {
   render() {
     return (
-      <div className="col s12">
+      <div>
         <div className="card">
           <div className="card-content blue-grey-text">
             <span className="card-title">{this.props.question}</span>

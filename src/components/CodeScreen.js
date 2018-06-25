@@ -43,8 +43,8 @@ class CodeScreen extends Component {
           description={this.props.about}
         />
         <div className="row">
-          <div className="col s10" />
-          <div className="col s1">
+          <div className="col s8 m10" />
+          <div className="col s2 m1">
             <div
               onClick={this.handleCppButtonClick}
               className="waves-effect waves-light btn-small"
@@ -52,7 +52,7 @@ class CodeScreen extends Component {
               C++
             </div>
           </div>
-          <div className="col s1">
+          <div className="col s2 m1">
             <div
               onClick={this.handleJavaButtonClick}
               className="waves-effect waves-light btn-small"
