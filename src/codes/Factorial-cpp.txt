@@ -1,0 +1,26 @@
+#include<iostream.h>
+#include<conio.h>
+ 
+int fact(int);
+ 
+void main()
+{
+    int num,f;
+    clrscr();
+     
+    cout<<"\n  Enter the number: ";
+    cin>>num;
+     
+    f=fact(num);
+     
+    cout<<"\n  The factorial of " <<num<<" is "<<f;
+    getch();
+}
+ 
+int fact(int n)
+{
+    if(n==0||n==1)
+        return 1;
+    else
+        return(n * fact(n-1));
+}
